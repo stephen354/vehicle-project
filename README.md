@@ -10,7 +10,8 @@
 8. Run command npm run dev to start vite development.
 9. Run command npm run build to build for production.
 10. Run command php artisan serve to start php server which will run laravel or if you are using other server apps like WAMP, XAMP or MAMP, you can follow that guide.
-11. Import Database
+11. Run command php artisan migrate
+12. Import Database
 
 Database Version 8.0.39 MYSQL
 
@@ -23,4 +24,13 @@ USERS : Manage User
 APPROVAL PROCESS: Approval from the manager / superior.
 VEHICLE ORDER : Vehicle reservation order
 
+-   For Order -
+
+1. Fill out the request form with required information, such as the purpose of use, rental date, and duration. (in Vehicle Order)
+2. After submitting the form, the request is sent to the manager or supervisor for approval. (in Approval Procces)
+3. The manager reviews the request to ensure that the vehicle use aligns with work needs and checks for vehicle availability.(can use Note for information)
+4. If approved, the employee will receive a confirmation.
+
 Email / Password : FOTO PNG email_pass.png
+
+Database Name : monitor_project.sql
